@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+a{
+  font-size: 40px;
+  color: rgb(0, 255, 217);
+}
+
+p{
+    background-color: blue;
+    margin: 30px;
+    padding:10px ;
+    font-weight: bold;
+}
+
+form{
+  background-color: blueviolet;
+  width: 10%;
+  padding: 10px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    color: white;
+    padding: 20px;
+    background-color: black(0, 0, 0, 0.765);
+    border-radius: 15px 15px 0px 0 px;
+    align-items: center;
+    font-size: 18px;
+}
+#submitRequest{
+    padding: 5px 15px;
+    border-radius:5px ;
+    border: white 2pc;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+.signin{
+   padding: 5px 15px; 
+   background-color: rgb(68, 79, 197);
+   border-radius: 5px;
+   font-size: 15px;
+   color: white;
+   border: solid 2px;
+   margin: left 12px;
+}
+.homebg{
+    height: 50vh;
+    background-color: rgb(146, 146, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hometext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+#hometext > input{
+    padding: 9px 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: none;
+    width: 15vw
+    
+}
