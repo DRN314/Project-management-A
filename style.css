@@ -3,17 +3,17 @@
     margin: 0px;
     
 }
-a{
+/*a{
   font-size: 40px;
   color: rgb(0, 255, 217);
-}
+}*/
 
-p{
+/*p{
     background-color: blue;
     margin: 30px;
     padding:10px ;
     font-weight: bold;
-}
+}*/
 
 form{
   background-color: blueviolet;
@@ -26,7 +26,7 @@ form{
     justify-content:space-around;
     color: white;
     padding: 20px;
-    background-color: black(0, 0, 0, 0.765);
+    background-color:black;
     border-radius: 15px 15px 0px 0 px;
     align-items: center;
     font-size: 18px;
@@ -45,8 +45,8 @@ form{
    border-radius: 5px;
    font-size: 15px;
    color: white;
-   border: solid 2px;
-   margin: left 12px;
+   border: solid 2px  rgba(50, 69, 238 );
+   margin: left 15px;
 }
 .homebg{
     height: 50vh;
@@ -68,4 +68,25 @@ form{
     border: none;
     width: 15vw
     
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    width: 1000px;
+    flex-wrap:wrap;
+}
+
+.card{
+    display: flex;
+    align-items: flex-start;
+    /*background-color:red ;*/
+    gap: 20px;
+    padding: 30px;
+    width: 350px;
+}
+.text area{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
 }
